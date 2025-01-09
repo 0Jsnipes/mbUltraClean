@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-purple-gradient {
+  @apply bg-gradient-to-b from-purple-700 to-white min-h-screen;
+}

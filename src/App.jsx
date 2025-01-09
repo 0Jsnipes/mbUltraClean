@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import Schedule from './pages/Schedule';
-import Payment from './pages/Payment';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -13,10 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/payment" element={<Payment />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }
